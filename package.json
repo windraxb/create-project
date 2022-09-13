@@ -1,0 +1,21 @@
+{
+  "name": "@windraxb/create-project",
+  "version": "1.0.0",
+  "description": "An easy way to start a project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "format": "prettier --write .",
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "minimist": "^1.2.6",
+    "prettier": "^2.7.1"
+  }
+}
